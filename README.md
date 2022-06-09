@@ -85,7 +85,7 @@ echo 'ZDOTDIR="$HOME/.config"' | sudo tee -a /etc/zsh/zshenv
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/zsh/ohmyzsh 
 ```  
 
-6- Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k) & Plugins
+6- Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k) & [Plugins](https://github.com/zsh-users)
 
 ```bash  
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.config/zsh/ohmyzsh/custom}/themes/powerlevel10k && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.config/zsh/ohmyzsh/custom}/plugins/zsh-syntax-highlighting && git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.config/zsh/ohmyzsh/custom}/plugins/zsh-autosuggestions &&   git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.config/zsh/ohmyzsh}/custom}/plugins/zsh-completions &&  git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.config/zsh/ohmyzsh/custom}/plugins/zsh-history-substring-search
