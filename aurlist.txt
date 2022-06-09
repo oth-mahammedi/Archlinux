@@ -1,0 +1,13 @@
+archlinux-appstream-data-pamac
+aura-bin
+cheat-bin
+chrome-gnome-shell
+distrobox
+jmtpfs
+libpamac-aur
+pamac-aur
+paru-bin
+timeshift-autosnap
+timeshift-bin
+ttf-ms-fonts
+yay-bin
