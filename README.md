@@ -77,7 +77,7 @@ sudo mv MesloLGS-NF /usr/share/fonts
 4- Change zshrc path
 
 ```bash
-echo 'ZDOTDIR="$HOME/.config"' | sudo tee -a /etc/zsh/zshenv
+echo 'ZDOTDIR="$HOME/.config/zsh"' | sudo tee -a /etc/zsh/zshenv
 ```
 5- Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
