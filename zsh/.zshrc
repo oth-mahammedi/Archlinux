@@ -13,7 +13,7 @@ HISTFILE=~/.config/zsh/.zhistory
 
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.config/zsh/.oh-my-zsh"
+export ZSH="$HOME/.config/zsh/ohmyzsh"
 
 #ZSH_THEME="agnoster"
 
